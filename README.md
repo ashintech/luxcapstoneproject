@@ -29,14 +29,16 @@ To run this project, you must install Python on your system. You can install the
    git clone https://github.com/ashintech/luxcapstoneproject.git
    cd luxcapstoneproject
 2. Install the required packages:
+   ```bash
    pip install -r requirements.txt
 3. Set your YouTube API key as an environment variable:
+    ```bash
    setx YOUTUBE_API_KEY "your_api_key_here"
    
 ## Usage
 Please make sure you set up your YouTube API key as an environment variable as described in the installation steps.
 Run the analysis scripts:
+ ```bash
 python analysis_script.py
-The script will extract data from the YouTube API, perform exploratory data analysis, and generate visualizations.
 
 
